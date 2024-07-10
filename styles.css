@@ -26,7 +26,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1.5rem 4rem 1.5rem;
+    padding: 1.5rem 1.5rem;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 nav .nav_btn {
@@ -46,6 +48,13 @@ nav h3 {
 nav .nav_btn:hover {
     background-color: #333;
     color: white;
+}
+
+/* Margin for all content */
+
+main {
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 /* Hero */
@@ -90,13 +99,13 @@ nav .nav_btn:hover {
 /* Why Web Dev Section */
 
 .why {
-    background-color: #f5f5f5;
+    background-color: #f6f8ff;
     text-align: center;
     border: 20px;
-    width: 55%;
     margin: auto;
     margin-top: 8rem;
     margin-bottom: 8rem;
+    border-radius: 18px;
 }
 
 .content {
@@ -112,6 +121,7 @@ nav .nav_btn:hover {
     flex-direction: column;
     gap: 1rem;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .card {
@@ -166,9 +176,7 @@ nav .nav_btn:hover {
 
 .frame {
     padding: 2rem;
-    margin: auto;
     overflow: hidden;
-    width: 65%;
     height: 500px;
     border: 2px solid rgb(214, 214, 214);
     border-radius: 20px;
@@ -188,7 +196,6 @@ nav .nav_btn:hover {
     flex-direction: column;
     margin-top: 2rem;
     gap: 2rem;
-    width: 70%;
     margin: auto;
     margin-top: 6rem;
 }
@@ -214,6 +221,7 @@ nav .nav_btn:hover {
 
 .tech_card a {
     color: #333;
+    font-weight: 600;
 }
 
 .ht {
@@ -227,3 +235,65 @@ nav .nav_btn:hover {
 .js {
     background: rgba(255, 223, 0, 0.05);
 }
+
+/* Feedback */
+
+.feedback {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./assets/handshake.jpg");
+    color: #ffffffdc;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: cover;
+    border-radius: 18px;
+    padding: 5rem 2rem;
+}
+
+.input {
+    background-color: #fff;
+    width: 400px;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    margin-right: 0.2rem;
+    color: #333;
+}
+
+.submit_btn {
+    background-color: #fff;
+    color: #333;
+    padding: 1rem 2rem;
+    border-radius: 12px;
+    font-weight: 800;
+}
+
+/* Footer */
+
+footer {
+    background-color: #f6f8ff;
+    border-radius: 18px;
+    margin-top: 5rem;
+    font-weight: 600;
+    padding: 2rem 0rem;
+}
+
+.footer_content {
+    margin: 0 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+
+
