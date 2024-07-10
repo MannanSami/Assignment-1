@@ -51,7 +51,7 @@ nav .nav_btn:hover {
 /* Hero */
 
 .hero {
-    background-image: url(./assets/Hero-bg.png);
+    background-image: url(../assets/Hero-bg.png);
     height: 600px;
     background-repeat: no-repeat;
     background-position: top left;
