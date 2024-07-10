@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 .azeret-mono {
@@ -103,8 +104,8 @@ main {
     text-align: center;
     border: 20px;
     margin: auto;
-    margin-top: 8rem;
-    margin-bottom: 8rem;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
     border-radius: 18px;
 }
 
