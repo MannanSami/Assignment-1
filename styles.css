@@ -51,7 +51,7 @@ nav .nav_btn:hover {
 /* Hero */
 
 .hero {
-    background-image: url(/assets/Hero-bg.png);
+    background-image: url(./assets/Hero-bg.png);
     height: 600px;
     background-repeat: no-repeat;
     background-position: top left;
@@ -139,7 +139,7 @@ nav .nav_btn:hover {
 
 .card button {
     cursor: pointer;
-    padding: 1rem 2rem;
+    padding: 0.7rem 1.7rem;
     border: 1px solid #333;
     background-color: white;
     text-align: center;
@@ -154,3 +154,6 @@ nav .nav_btn:hover {
         rgba(255, 255, 255, 0) 100%
     );
 }
+
+/* Inspiration */
+
