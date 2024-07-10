@@ -1,17 +1,22 @@
+/* General Styles */
+
 * {
     margin: 0;
     padding: 0;
 }
 
-.azeret-mono-heading {
+.azeret-mono {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: bold;
 }
 
-.azeret-mono-body {
-    font-family: "Azeret Mono", monospace;
-    font-optical-sizing: auto;
+.heading {
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.body_text {
+    font-size: 1rem;
     font-weight: 500;
 }
 
@@ -21,7 +26,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2rem 5rem 2rem;
+    padding: 1.5rem 4rem 1.5rem;
 }
 
 nav .nav_btn {
@@ -82,3 +87,24 @@ nav .nav_btn:hover {
     border-radius: 8px;
     margin-top: 2rem;
 }
+
+/* Why Web Dev Section */
+
+.why {
+    background-color: #f5f5f5;
+    text-align: center;
+    border: 20px;
+    width: 55%;
+    margin: auto;
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+
+.content {
+    padding: 3rem 8rem;
+}
+
+.why p {
+    margin-top: 2rem;
+}
+
