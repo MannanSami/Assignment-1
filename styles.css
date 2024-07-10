@@ -6,13 +6,13 @@
 .azeret-mono-heading {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 600;
+    font-weight: bold;
 }
 
 .azeret-mono-body {
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* Navigation */
@@ -28,7 +28,7 @@ nav .nav_btn {
     cursor: pointer;
     width: 12rem;
     height: 3rem;
-    border: 1px solid rgb(13, 19, 33);
+    border: 1px solid #333;
     border-radius: 8px;
     background-color: white;
     text-align: center;
@@ -54,17 +54,31 @@ nav .nav_btn:hover {
     background-size: cover;   
 }
 
-.hero {
+.hero_content {
     text-align: center;
     margin: auto;
+    width: 65%;
 }
 
 .hero_content img {
-    margin-top: 5rem;
+    width: 11rem;
+    margin-top: 3rem;
 }
-.hero_content img {
-
+.hero_content h2 {
+    font-size: 2.6rem;
+    font-weight: 800;
+    margin-top: 2rem;
 }
-.hero_content a {
+.hero_content p {
+    font-size: 1rem;
+    margin-top: 2rem;
+}
 
+.hero button {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 1.5rem;
+    cursor: pointer;
+    border-radius: 8px;
+    margin-top: 2rem;
 }
